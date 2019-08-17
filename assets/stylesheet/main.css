@@ -1,0 +1,445 @@
+/* Global Settings */
+
+body {
+    margin: 0px;
+    padding-top: 12px;
+    background-color: #E3E6E3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+}
+
+
+/* Helper Classes */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+/* Common Settings */
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+/***** Header *****/
+
+#header {
+    background-color: #009270;
+}
+
+#header .logo {
+    width: 11%;
+    padding: 5px;
+    padding-left: 60px;
+}
+
+#header .logo img {
+    width: 100%;
+}
+
+/* #header .search {
+    width: 15%;
+    padding-top: 8px;
+}
+
+#header .search input[type="text"] {
+    width: 100%;
+} */
+
+
+/***** Main Navigation *****/
+
+#main-navigation {
+    width: 70%;
+    /* margin-left: 30px; */
+}
+
+#main-navigation ul li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-navigation ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 16px 9px;
+    color: #fff;
+}
+
+#main-navigation ul li:hover {
+    background-color: #028062;
+}
+
+#main-navigation ul li.dropdown:after {
+    content: "";
+    border: 4px solid;
+    border-color: #fff transparent transparent;
+    position: absolute;
+    right: 0px;
+    top: 22px;
+}
+
+.tabs {
+    background-color: #fff;
+}
+
+.tabs ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    padding-top: 10px;
+}
+
+.tabs ul li.active a {
+    color: #009270;
+    font-weight: bold;
+    border-bottom: 2px solid #009270;
+}
+
+.tabs ul li a {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.tabs .allMatches {
+    padding: 10px;
+}
+
+
+/***** Content *****/
+
+#content {
+    margin-top: 6px;
+}
+
+
+/***** Main *****/
+
+#main {
+    background-color: #fff;
+    margin: 0px 6px;
+    width: 44%;
+    padding: 10px 13px;
+}
+
+#main .section{
+    border-bottom: 1px solid #E3E6E3;
+    padding: 10px;
+}
+
+#section_1 h3 {
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#section_1 h1 {
+    font-size: 24px;
+}
+
+#section_1 h1 a {
+    color: #000;
+}
+
+#section_1 p {
+    color: #666;
+}
+
+#section_1 h1 a:hover {
+    text-decoration: underline;
+}
+
+.scorecard {
+    width: 80%;
+    background-color: #F0F0F0;
+    margin-bottom: 20px;
+}
+
+.scorecard a {
+    display: block;
+    padding: 10px;
+    color: #000;
+}
+
+.scorecard ul li {
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 10px;
+    list-style: circle;
+    position: relative;
+}
+
+.scorecard ul li span {
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    border: 1px solid #000;
+    height: 2px;
+    width: 2px;
+    background-color: #000;
+}
+
+#section_1 .scorecard{
+    border-left:red solid;
+    position: relative;
+    
+}
+
+#section_1 .scorecard p {
+    color: red;
+    font-size: 13px;
+}
+
+#section_1 .arrow{
+    position: absolute;
+    top: 40%;
+    font-size: 25px;
+    font-weight: normal;
+    z-index: 100;
+    left: 90%
+}
+
+.links ul li {
+    margin-bottom: 12px;
+}
+
+.links a {
+    color: #1866DB;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#section_2 h1{
+    font-size: 20px;
+    color: #000;
+}
+
+#section_2 .scorecard{
+    border-left:red solid;
+    position: relative;
+    
+}
+#section_2 .scorecard p{
+    color: red;
+    font-size: 13px;
+}
+#section_2 .textright{
+    width: 269px;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+#section_2 .img{
+    width: 32%;
+}
+#section_2 .arrow{
+    position: absolute;
+    top: 40%;
+    font-size: 25px;
+    font-weight: normal;
+    z-index: 100;
+    left: 90%
+}
+
+#section_3 h1{
+    font-size: 20px;
+    color: #000;
+}
+
+#section_3 .scorecard{
+    border-left:red solid;
+    position: relative;
+    
+}
+#section_3 .scorecard p{
+    color: red;
+    font-size: 13px;
+}
+#section_3 .textright{
+    width: 269px;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+#section_3 .img{
+    width: 32%;
+}
+#section_3 .arrow{
+    position: absolute;
+    top: 40%;
+    font-size: 25px;
+    font-weight: normal;
+    z-index: 100;
+    left: 90%
+}
+
+#section_4 h1{
+    font-size: 17px;
+    color: #000;
+}
+
+#section_4 .textright{
+    width: 269px;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+#section_4 .img{
+    width: 32%;
+}
+
+#section_5 h1{
+    font-size: 17px;
+    color: #000;
+}
+
+#section_5 .textright{
+    width: 269px;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+#section_5 .img{
+    width: 32%;
+}
+
+/***** Sidebar_1 *****/
+
+#sidebar_1 {
+    width: 20%;
+}
+
+.widget {
+    background-color: #fff;
+    padding: 13px;
+    margin-bottom: 6px;
+}
+
+.widget h2 {
+    color: #009270;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.widget p,h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.widget a {
+    color: #000;
+}
+
+#sidebar_1 .widget ul li {
+    border-bottom: 1px solid #E3E6E3;
+    padding-top: 10px;
+}
+
+
+/***** Sidebar_2 *****/
+
+#sidebar_2 {
+    width: 32%;
+}
+
+#sidebar_2 h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+#sidebar_2 .image {
+    padding-top: 10px;
+    position: relative;
+}
+
+#sidebar_2 .play-icon {
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    font-size: 20px;
+    color: #fff;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+#sidebar_2 .sidebar_2_1{
+    border-bottom: 1px solid #E3E6E3;
+    padding-bottom: 10px;
+}
+
+/***** Footer *****/
+
+#footer {
+    background-color: #4A4A4A;
+    padding-left: 350px;
+}
+
+#footer ul li a{
+    color: #E6E6E6;
+}
+
+#footer ul li{
+    padding-bottom: 15px;
+}
+#footer .col{
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    
+}
+
+#footer .col h3{
+    color: #E6E6E6;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#footer #col_4{
+    padding-left: 125px;
+    color: #E6E6E6;
+    padding-bottom: 0px;
+}
+
+/* Specific CSS */
